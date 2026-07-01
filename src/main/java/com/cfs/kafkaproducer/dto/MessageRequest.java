@@ -1,4 +1,5 @@
 package com.cfs.kafkaproducer.dto;
 
-public class MessageRequest {
+public record MessageRequest(String message) {
+
 }
